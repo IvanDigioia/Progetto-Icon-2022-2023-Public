@@ -1,0 +1,770 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/digio/ontologies/2023/5/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/digio/ontologies/2023/5/untitled-ontology-11">
+    <Prefix name="" IRI="http://www.semanticweb.org/digio/ontologies/2023/5/untitled-ontology-11/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Costumer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publisher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shop"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#can_collaborate_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#collaborate_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_genre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_located"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_published_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_searched_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_used_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_written_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publish"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#searches"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#writes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Average_rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Number_of_pages"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Published_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Rating_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Re_evalutation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book_store"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Christian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Christian_Fiction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Costumer_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Douglas_Preston"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fiction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Horror"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inner_Circle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Julian_Peploe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Karen_Kingsbury"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kate_Brian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lincoln_Child"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mystery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nonfiction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reliquary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Romance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simon__Schuster_Books_for_Young_Readers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Take_Two"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thomas_Nelson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thriller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tor_Books"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Young_Adult"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zondervan"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shop"/>
+        <NamedIndividual IRI="#Book_store"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Christian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Christian_Fiction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costumer"/>
+        <NamedIndividual IRI="#Costumer_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Douglas_Preston"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Fiction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Horror"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Julian_Peploe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Karen_Kingsbury"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Kate_Brian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Lincoln_Child"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Mystery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Nonfiction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Reliquary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Romance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publisher"/>
+        <NamedIndividual IRI="#Simon__Schuster_Books_for_Young_Readers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Take_Two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publisher"/>
+        <NamedIndividual IRI="#Thomas_Nelson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Thriller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publisher"/>
+        <NamedIndividual IRI="#Tor_Books"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Young_Adult"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publisher"/>
+        <NamedIndividual IRI="#Zondervan"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+        <NamedIndividual IRI="#Christian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+        <NamedIndividual IRI="#Christian_Fiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+        <NamedIndividual IRI="#Fiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+        <NamedIndividual IRI="#Romance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_published_by"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+        <NamedIndividual IRI="#Thomas_Nelson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_written_by"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+        <NamedIndividual IRI="#Karen_Kingsbury"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_collaborate_with"/>
+        <NamedIndividual IRI="#Douglas_Preston"/>
+        <NamedIndividual IRI="#Tor_Books"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#writes"/>
+        <NamedIndividual IRI="#Douglas_Preston"/>
+        <NamedIndividual IRI="#Reliquary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+        <NamedIndividual IRI="#Mystery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+        <NamedIndividual IRI="#Romance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+        <NamedIndividual IRI="#Young_Adult"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_published_by"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+        <NamedIndividual IRI="#Simon__Schuster_Books_for_Young_Readers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_written_by"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+        <NamedIndividual IRI="#Julian_Peploe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_written_by"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+        <NamedIndividual IRI="#Kate_Brian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_collaborate_with"/>
+        <NamedIndividual IRI="#Julian_Peploe"/>
+        <NamedIndividual IRI="#Simon__Schuster_Books_for_Young_Readers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#writes"/>
+        <NamedIndividual IRI="#Julian_Peploe"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_collaborate_with"/>
+        <NamedIndividual IRI="#Karen_Kingsbury"/>
+        <NamedIndividual IRI="#Thomas_Nelson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_collaborate_with"/>
+        <NamedIndividual IRI="#Karen_Kingsbury"/>
+        <NamedIndividual IRI="#Zondervan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#writes"/>
+        <NamedIndividual IRI="#Karen_Kingsbury"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#writes"/>
+        <NamedIndividual IRI="#Karen_Kingsbury"/>
+        <NamedIndividual IRI="#Take_Two"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_collaborate_with"/>
+        <NamedIndividual IRI="#Kate_Brian"/>
+        <NamedIndividual IRI="#Simon__Schuster_Books_for_Young_Readers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#writes"/>
+        <NamedIndividual IRI="#Kate_Brian"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_collaborate_with"/>
+        <NamedIndividual IRI="#Lincoln_Child"/>
+        <NamedIndividual IRI="#Tor_Books"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#writes"/>
+        <NamedIndividual IRI="#Lincoln_Child"/>
+        <NamedIndividual IRI="#Reliquary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Reliquary"/>
+        <NamedIndividual IRI="#Fiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Reliquary"/>
+        <NamedIndividual IRI="#Horror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Reliquary"/>
+        <NamedIndividual IRI="#Mystery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Reliquary"/>
+        <NamedIndividual IRI="#Thriller"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_published_by"/>
+        <NamedIndividual IRI="#Reliquary"/>
+        <NamedIndividual IRI="#Tor_Books"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_written_by"/>
+        <NamedIndividual IRI="#Reliquary"/>
+        <NamedIndividual IRI="#Douglas_Preston"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_written_by"/>
+        <NamedIndividual IRI="#Reliquary"/>
+        <NamedIndividual IRI="#Lincoln_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#collaborate_with"/>
+        <NamedIndividual IRI="#Simon__Schuster_Books_for_Young_Readers"/>
+        <NamedIndividual IRI="#Julian_Peploe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#collaborate_with"/>
+        <NamedIndividual IRI="#Simon__Schuster_Books_for_Young_Readers"/>
+        <NamedIndividual IRI="#Kate_Brian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publish"/>
+        <NamedIndividual IRI="#Simon__Schuster_Books_for_Young_Readers"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Take_Two"/>
+        <NamedIndividual IRI="#Christian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Take_Two"/>
+        <NamedIndividual IRI="#Christian_Fiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Take_Two"/>
+        <NamedIndividual IRI="#Fiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Take_Two"/>
+        <NamedIndividual IRI="#Romance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_published_by"/>
+        <NamedIndividual IRI="#Take_Two"/>
+        <NamedIndividual IRI="#Zondervan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_written_by"/>
+        <NamedIndividual IRI="#Take_Two"/>
+        <NamedIndividual IRI="#Karen_Kingsbury"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#collaborate_with"/>
+        <NamedIndividual IRI="#Thomas_Nelson"/>
+        <NamedIndividual IRI="#Karen_Kingsbury"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publish"/>
+        <NamedIndividual IRI="#Thomas_Nelson"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#collaborate_with"/>
+        <NamedIndividual IRI="#Tor_Books"/>
+        <NamedIndividual IRI="#Douglas_Preston"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#collaborate_with"/>
+        <NamedIndividual IRI="#Tor_Books"/>
+        <NamedIndividual IRI="#Lincoln_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publish"/>
+        <NamedIndividual IRI="#Tor_Books"/>
+        <NamedIndividual IRI="#Reliquary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#collaborate_with"/>
+        <NamedIndividual IRI="#Zondervan"/>
+        <NamedIndividual IRI="#Karen_Kingsbury"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publish"/>
+        <NamedIndividual IRI="#Zondervan"/>
+        <NamedIndividual IRI="#Take_Two"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Average_rating"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9487</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_pages"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Published_year"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2006</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating_count"/>
+        <NamedIndividual IRI="#A_Time_to_Embrace"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4179</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Average_rating"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.03</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">630104</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_pages"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">220</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Published_year"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating_count"/>
+        <NamedIndividual IRI="#Inner_Circle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7597</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Average_rating"/>
+        <NamedIndividual IRI="#Reliquary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id"/>
+        <NamedIndividual IRI="#Reliquary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">39030</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_pages"/>
+        <NamedIndividual IRI="#Reliquary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">464</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Published_year"/>
+        <NamedIndividual IRI="#Reliquary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1997</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating_count"/>
+        <NamedIndividual IRI="#Reliquary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">38382</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Average_rating"/>
+        <NamedIndividual IRI="#Take_Two"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id"/>
+        <NamedIndividual IRI="#Take_Two"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6050894</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_pages"/>
+        <NamedIndividual IRI="#Take_Two"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">320</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Published_year"/>
+        <NamedIndividual IRI="#Take_Two"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating_count"/>
+        <NamedIndividual IRI="#Take_Two"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6288</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#can_collaborate_with"/>
+        <ObjectProperty IRI="#collaborate_with"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_published_by"/>
+        <ObjectProperty IRI="#publish"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_searched_by"/>
+        <ObjectProperty IRI="#searches"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_used_by"/>
+        <ObjectProperty IRI="#uses"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_written_by"/>
+        <ObjectProperty IRI="#writes"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#can_collaborate_with"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#collaborate_with"/>
+        <Class IRI="#Publisher"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_genre"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_located"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_published_by"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_searched_by"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_used_by"/>
+        <Class IRI="#Shop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_written_by"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publish"/>
+        <Class IRI="#Publisher"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#searches"/>
+        <Class IRI="#Costumer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Costumer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#writes"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#can_collaborate_with"/>
+        <Class IRI="#Publisher"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#collaborate_with"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_genre"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_located"/>
+        <Class IRI="#Shop"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_published_by"/>
+        <Class IRI="#Publisher"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_searched_by"/>
+        <Class IRI="#Costumer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_used_by"/>
+        <Class IRI="#Costumer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_written_by"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publish"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#searches"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Shop"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#writes"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Average_rating"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Id"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Number_of_pages"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Published_year"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Rating_count"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Re_evalutation"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Title"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Average_rating"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Id"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Number_of_pages"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Published_year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Rating_count"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Re_evalutation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
